@@ -1,0 +1,166 @@
+/*-----------------------------
+             TYPO
+------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*-----------------------------
+             RESET
+------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*-----------------------------
+             TEXTE
+------------------------------*/
+
+.bold {
+    font-weight: 800;
+}
+h1{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 85px;
+
+}
+h2 {
+    font-family: "DM Serif Display", serif;
+}
+
+h3 {
+    font-family: "DM Serif Display", serif;
+}
+
+p {
+    font-family: "Jost", sans-serif;
+}
+
+a {
+    font-family: "Jost", sans-serif;
+}
+
+.white {
+    color: white;
+}
+
+.dark-grey {
+    color: #292F36;
+}
+
+.grey {
+    color: #4D5053;
+}
+
+.gold {
+    color: #CDA274;
+}
+
+.isa {
+    color: #F4F0EC;
+}
+
+.f-22 {
+    font-size: 22px;
+}
+
+
+/*-----------------------------
+        MARGIN ET PADDING
+------------------------------*/
+.p-40 {
+    padding: 40px;
+}
+
+.mgl-8 {
+    margin-left: 8px;
+}
+
+/*-----------------------------
+          DIMENSIONS
+------------------------------*/
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+/*-----------------------------
+            FLEXBOX
+------------------------------*/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+/*-----------------------------
+           CONTAINER
+------------------------------*/
+
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-----------------------------
+           BACKGROUND
+------------------------------*/
+.bg-gold {
+    background-color: #CDA274;
+}
+
+.bg-dark-grey {
+    background-color: #292F36;
+}
+
+.bg-grey {
+    background-color: #4D5053;
+}
+
+.bg-isa {
+    background-color: #F4F0EC;
+}
+
+.bg-hero {
+    background-image: url("assets/Banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/*-----------------------------
+           BOUTONS
+------------------------------*/
+.btn {
+    background-color: #292F36;
+    padding: 26px 31px;
+    border-radius: 18px;
+    color: white;
+    font-size: 22px;
+    display: inline-block;
+
+}
